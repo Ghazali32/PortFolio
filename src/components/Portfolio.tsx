@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Github, Linkedin, Mail } from "lucide-react";
 import photo from "../assets/photo.jpeg";
 

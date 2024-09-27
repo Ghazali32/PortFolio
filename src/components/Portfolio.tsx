@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import photo from "../assets/photo.jpeg";
 
 const projects = [
@@ -30,33 +30,6 @@ const projects = [
   },
 ];
 
-const skills = [
-  "Java",
-  "C",
-  "C++",
-  "JavaScript",
-  "TypeScript",
-  "Dart",
-  "React JS",
-  "NEXT JS",
-  "HTML",
-  "CSS",
-  "Tailwind CSS",
-  "Flutter",
-  "Node.js",
-  "Express JS",
-  "Serverless Backends",
-  "JSON",
-  "JWT",
-  "REST APIs",
-  "MongoDB",
-  "Postgres SQL",
-  "Firebase",
-  "AWS",
-  "Cloudflare",
-  "Postman",
-  "GitHub",
-];
 
 const experiences = [
   {
@@ -83,7 +56,6 @@ const educations = [
 ];
 
 export default function Portfolio() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className="min-h-screen bg-gray-100 text-gray-800">

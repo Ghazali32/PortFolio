@@ -27,6 +27,17 @@ const Header = () => {
                 <a href="#contact" className="text-base font-medium text-gray-500 hover:text-gray-900">Contact</a>
             </nav>
         </div>
+        {isMenuOpen && (
+          <div className="md:hidden">
+            <div className="space-y-1 px-2 pt-2 pb-3">
+              <a href="#about" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">About</a>
+              <a href="#experience" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">Experience</a>
+              <a href="#projects" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">Projects</a>
+              <a href="#skills" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">Skills</a>
+              <a href="#contact" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">Contact</a>
+            </div>
+          </div>
+        )}
     </div>
 </header>
   );

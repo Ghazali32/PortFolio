@@ -36,13 +36,24 @@ const experiences = [
     position: "SDE Intern",
     period: "July 2024 - Present",
     description: [
+      "Developed and deployed two healthcare applications using React Native, with a backend built in Node.js and Firebase, hosted on AWS EC2. Integrated complex functionalities such as push notifications with Firebase Cloud Messaging (FCM) and successfully launched both apps on the Google Play Store.",
       "Engineered and implemented new features and enhancements for a web application utilizing React and Redux.",
-      "Developed and debugged two React Native applications, integrating Firebase Authentication for secure user access.",
       "Implemented a notification panel in the aforementioned applications using Firebase Cloud Messaging and Node.js.",
       "Refactored existing backend code in Node.js and successfully redeployed the application on AWS EC2 for improved performance.",
     ],
   },
+  {
+    company: "Basira Studio",
+    position: "Web Developer (Part-Time)",
+    period: "October 2024 - Present",
+    description: [
+      "Added new features and debugged a web app built with Django, then redeployed it on Digital Ocean.",
+      "Developed a web application using React.js, TypeScript, and Tailwind CSS.",
+      "Debugged and resolved application issues to improve user experience.",
+    ],
+  },
 ];
+
 
 const educations = [
   {
